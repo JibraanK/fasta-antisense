@@ -33,6 +33,6 @@ def convert_fasta_to_antisense(fasta_file):
     return output_file
 
 # Example usage
-input_fasta = '/Users/jibk/Downloads/GCF_000003025.6_Sscrofa11.1_genomic.fna'
+input_fasta = 'path to fasta'
 antisense_fasta = convert_fasta_to_antisense(input_fasta)
 print(f"Antisense FASTA saved to: {antisense_fasta}")
